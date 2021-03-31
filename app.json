@@ -1,0 +1,34 @@
+{
+  "name": "Ƙɑɑℓ Mʋsɩc Pɭʌƴɘʀ Usɘʀɓot (Tɘɭɘʛʀʌɱ)",
+  "description": "Telegram UserBot to Play Audio in Telegram Voice Chats",
+  "repository": "https://github.com/kaalware/KaalMusicBot",
+  "logo": "https://telegra.ph/file/9cdad2e32726b614776b4.png",
+  "keywords": [
+    "kaalmusicbot",
+    "tgvc-userbot",
+    "telegram",
+    "userbot",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "voip"
+  ],
+  "stack": "container",
+  "env": {
+    "API_ID": {
+            "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "API_HASH": {
+            "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "SESSION_NAME": {
+            "description": "Session string, read the README to learn how to export it with Pyrogram",
+            "required": true
+    }
+  }
+}
