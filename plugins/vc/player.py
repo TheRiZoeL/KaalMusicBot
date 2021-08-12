@@ -250,7 +250,6 @@ async def skip_track(client, m: Message):
                    & filters.regex("^!join$"))
 async def join_group_call(client, m: Message):
     group_call = mp.group_call
-    group_call.client = client
     if group_call.is_connected:
         await m.reply_text(f"{emoji.ROBOT} Aɭʀɘʌɗƴ joɩŋɘɗ tʜɘ voɩcɘ cʜʌt soɱɘwʜɘʀɘ")
         return
